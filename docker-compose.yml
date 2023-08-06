@@ -1,0 +1,14 @@
+version: '2.4'
+services:
+  server:
+    build:
+      dockerfile: ./Dockerfile
+      context: ./
+    container_name: server
+    command: 
+      - python
+      - server.py
+    ports:
+      - '5001:5001'
+    volumes:
+      - '.:/app:delegated'
