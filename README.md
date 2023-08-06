@@ -52,3 +52,5 @@ Utilize the ANNOY library to create an index of the SBERT embeddings, enabling f
 Deployment on AWS with Docker:
 Containerize the project components, including the Flask API, SBERT model, and ANNOY index, using Docker.
 Deploy the Docker containers on AWS EC2 Instance.
+
+![image](https://github.com/prerakchintalwar/-MLOps-Project-to-Build-Search-Relevancy-Algorithm-with-SBERT/assets/54786504/06d53103-7b91-4226-b40b-d1fe1dd4078a)
