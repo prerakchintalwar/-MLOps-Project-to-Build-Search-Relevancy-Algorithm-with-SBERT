@@ -21,7 +21,8 @@ This project involves three key steps. Firstly, the Sentence-BERT (SBERT) model 
 
 This project aims to improve the search experience for news articles by leveraging the Sentence-BERT (SBERT) model and the ANNOY approximate nearest neighbor library. The project will be deployed on AWS using Docker containers and exposed as a Flask API, allowing users to query and retrieve relevant news articles easily.
 
-Data Description:
+Data Description
+
 The dataset consists 22399 articles with the following attributes:
 article_id: A unique identifier for each article in the dataset.
 category: The broad category to which the article belongs, providing a high-level classification of the content.
@@ -31,18 +32,22 @@ published date: The date when the article was published or made available to the
 text: The main body of the news article, containing the detailed information and context.
 source: The source or publication from which the article originated.
 
-Tech Stack:
+_Tech Stack_
+
 Language: Python
+
 Libraries:  pandas, numpy, spacy, sentence transformers, annoy, flask, AWS
 
-Approach:
+_Approach_
+
 Data Preprocessing:
 Clean and preprocess the news article dataset, including tokenization, removal of stop words, and normalization.
 
-SBERT Training:
+_SBERT Training_
+
 Train the Sentence-BERT (SBERT) model using the preprocessed news articles to generate semantically meaningful sentence embeddings.
 
-ANNOY Indexing:
+_ANNOY Indexing_
 Utilize the ANNOY library to create an index of the SBERT embeddings, enabling fast and efficient approximate nearest neighbor search.
 Deployment on AWS with Docker:
 Containerize the project components, including the Flask API, SBERT model, and ANNOY index, using Docker.
