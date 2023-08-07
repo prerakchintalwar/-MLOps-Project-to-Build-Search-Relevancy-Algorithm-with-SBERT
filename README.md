@@ -1,4 +1,4 @@
-# -MLOps-Project-to-Build-Search-Relevancy-Algorithm-with-SBERT
+# MLOps Project to Build Search Relevancy Algorithm with SBERT
 In this MLOps SBERT project we will build and deploy an accurate and scalable search algorithm on AWS using SBERT and ANNOY to enhance search relevancy in news articles.
 
 **Project Description**
@@ -21,7 +21,7 @@ This project involves three key steps. Firstly, the Sentence-BERT (SBERT) model 
 
 This project aims to improve the search experience for news articles by leveraging the Sentence-BERT (SBERT) model and the ANNOY approximate nearest neighbor library. The project will be deployed on AWS using Docker containers and exposed as a Flask API, allowing users to query and retrieve relevant news articles easily.
 
-Data Description
+**Data Description**
 
 The dataset consists 22399 articles with the following attributes:
 article_id: A unique identifier for each article in the dataset.
@@ -32,25 +32,26 @@ published date: The date when the article was published or made available to the
 text: The main body of the news article, containing the detailed information and context.
 source: The source or publication from which the article originated.
 
-_Tech Stack_
+**Tech Stack**
 
 Language: Python
 
 Libraries:  pandas, numpy, spacy, sentence transformers, annoy, flask, AWS
 
-_Approach_
+**Approach**
 
 Data Preprocessing:
 Clean and preprocess the news article dataset, including tokenization, removal of stop words, and normalization.
 
-_SBERT Training_
+**SBERT Training**
 
 Train the Sentence-BERT (SBERT) model using the preprocessed news articles to generate semantically meaningful sentence embeddings.
 
-_ANNOY Indexing_
-Utilize the ANNOY library to create an index of the SBERT embeddings, enabling fast and efficient approximate nearest neighbor search.
+**ANNOY Indexing**
+
+* Utilize the ANNOY library to create an index of the SBERT embeddings, enabling fast and efficient approximate nearest neighbor search.
 Deployment on AWS with Docker:
-Containerize the project components, including the Flask API, SBERT model, and ANNOY index, using Docker.
-Deploy the Docker containers on AWS EC2 Instance.
+* Containerize the project components, including the Flask API, SBERT model, and ANNOY index, using Docker.
+* Deploy the Docker containers on AWS EC2 Instance.
 
 ![image](https://github.com/prerakchintalwar/-MLOps-Project-to-Build-Search-Relevancy-Algorithm-with-SBERT/assets/54786504/06d53103-7b91-4226-b40b-d1fe1dd4078a)
